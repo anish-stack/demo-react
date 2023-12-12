@@ -1,0 +1,48 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles to the container */
+.div_conatiner {
+    background-color: #333; /* Set your desired background color */
+    padding: 10px;
+}
+
+/* Style the navigation container */
+.Nav_conatiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo container */
+.logo_conatiner h4 {
+    color: #fff; /* Set your desired text color */
+    font-size: 1.5rem; /* Set your desired font size */
+}
+
+/* Style the navigation list */
+.list-nav {
+    list-style: none;
+    display: flex;
+}
+
+/* Style the navigation list items */
+.list-nav li {
+    margin-right: 15px; /* Adjust the spacing between list items */
+}
+
+/* Style the navigation links */
+.list-nav a {
+    text-decoration: none;
+    color: #fff; /* Set your desired text color */
+    font-weight: bold; /* Set your desired font weight */
+    font-size: 1rem; /* Set your desired font size */
+}
+
+/* Add hover effect to the navigation links */
+.list-nav a:hover {
+    color: #ffd700; /* Set your desired hover color */
+}

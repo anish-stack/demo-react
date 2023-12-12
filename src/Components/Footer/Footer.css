@@ -1,0 +1,27 @@
+/* Apply basic styles to the footer container */
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #333; /* Set your desired dark background color */
+    color: #fff; /* Set your desired text color */
+    padding: 20px;
+  }
+  
+  /* Style the footer columns */
+  .footer-column {
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the heading inside the footer column */
+  .footer-column h4 {
+    color: #ffd700; /* Set your desired heading color */
+  }
+  
+  /* Style the paragraph inside the footer column */
+  .footer-column p {
+    color: #ccc; /* Set your desired text color */
+  }
+  

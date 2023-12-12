@@ -1,38 +1,59 @@
-.App {
+/* Apply basic styles to the hero container */
+.hero-conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0; /* Set your desired background color */
+}
+
+/* Style the hero image */
+.hero-img img {
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the hero content */
+.hero-content {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style the heading inside hero content */
+.hero-content h2 {
+  color: #333; /* Set your desired text color */
+  font-size: 2rem; /* Set your desired font size */
+  margin-bottom: 10px; /* Adjust spacing as needed */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Style the button inside hero content */
+.hero-content button {
+  padding: 10px 20px; /* Set your desired padding */
+  background-color: #4caf50; /* Set your desired button color */
+  color: #fff; /* Set your desired text color */
+  font-size: 1rem; /* Set your desired font size */
+  border: none;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Add hover effect to the button */
+.hero-content button:hover {
+  background-color: #45a049; /* Set your desired hover color */
 }
 
-.App-link {
-  color: #61dafb;
+
+
+/* Apply basic styles to the About container */
+.About-conatiner {
+  max-width: 800px; /* Set your desired maximum width */
+  margin: 0 auto; /* Center the container on the page */
+  padding: 20px; /* Set your desired padding */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style the paragraph inside the About container */
+.About-conatiner p {
+  font-size: 1rem; /* Set your desired font size */
+  line-height: 1.5; /* Set your desired line height */
+  color: #333; /* Set your desired text color */
 }
+
+/* Add additional styles or adjustments as needed */

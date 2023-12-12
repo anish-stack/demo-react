@@ -1,0 +1,45 @@
+/* Apply basic styles to the contact container */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the heading inside the contact container */
+  .contact-container h2 {
+    color: #333;
+  }
+  
+  /* Style the form elements */
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Style the form labels */
+  .contact-container label {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  /* Style the form input and textarea */
+  .contact-container input,
+  .contact-container textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style the form button */
+  .contact-container button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to the form button */
+  .contact-container button:hover {
+    background-color: #45a049;
+  }
+  
